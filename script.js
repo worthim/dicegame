@@ -13,7 +13,7 @@ button.addEventListener("click",()=> {
     const randomNumber= Math.floor(Math.random()*6+1)
     console.log(randomNumber)
     totalScore=totalScore+randomNumber
-    diceImage.src=`/img/dice${randomNumber}.png`
+    diceImage.src=`./img/dice${randomNumber}.png`
     score.textContent = totalScore
     title.textContent = "The Dice Game !"
 
